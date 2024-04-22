@@ -1,0 +1,95 @@
+
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Responsive Navbar | CodingNepal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Landing1.css">
+   
+  </head>
+  <body>
+    <nav class="navbar">
+        <h1 class="logo">ADVANTURE</h1>
+        <ul class="nav-links">
+            <li class="active"><a href="#"></a>HOME</li>
+            <li><a href="#eve" style="color:#fc036b;font-weight: bold;">TOURS</a></li>
+            <li><a href="#exp" style="color:#fc036b;font-weight: bold;">EXPLORE</a></li>
+            <li><a href="#con" style="color:#fc036b;font-weight: bold;">ABOUT</a></li>
+            <li class="ctn" style="color:white;font-weight: 20px;"><a href="#con">CONTACT</a></li>
+
+        </ul>
+        <img src="menu-btn.png" class="menu-btn"></img>
+
+    </nav>
+   <header>
+    <div class="header-content">
+        <h2>Explore the colorful world</h2>
+        <div class="line"></div>
+        <h1>A WONDERFUL GIFT</h1>
+        <a href="#" class="ctn">Learn More</a>
+    </div>
+   </header>
+<!--events-->
+<section >
+  <div class="title">
+    <h1 id="eve">upcoming events</h1>
+    <div class="line"></div>
+  </div>
+  <div class="row">
+    <div class="col">
+      <img src="img1.png" style="padding: 10px;">
+      <h4>Everest Camp Trek</h4>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa vel inventore architecto quam facere est? Impedit libero, dolor asperiores maxime sit ducimus quo debitis similique dignissimos quas velit aperiam natus.</p>
+      <a href="#" class="ctn">Learn More</a>
+    </div>
+    <div class="col">
+      <img src="img2.png">
+      <h4>Walking Holidays</h4>
+      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam nihil, vitae quis voluptas doloremque, veritatis est incidunt quae aperiam officia fuga recusandae cupiditate culpa et quas ex, maiores error velit.</p>
+      <a href="#" class="ctn">Learn More</a>
+    </div>
+  </div>
+</section>
+<section class="explore" id="exp">
+  <div class="explore-content">
+    <h1>EXPLORE THE WORLD</h1>
+    <div class="line"></div>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem temporibus quaerat illo dolores repellendus? Deserunt sequi, dolores adipisci pariatur maiores voluptatum, fuga ipsum, in commodi eaque fugit amet neque sit.</p>
+ 
+  <a href="#" class="ctn">Learn More</a>
+</div>
+</section>
+   <section class="tours">
+    <div class="row">
+      <div class="col content-col">
+        <h1>UPCOMING TOURS & DESTINATIONS</h1>
+        <div class="line"></div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam at, consectetur odio repellat soluta quia sed corporis consequatur officia beatae laborum in quaerat. Veritatis sunt id pariatur repudiandae, soluta officiis.</p>
+        <a href="#" class="ctn">Learn More</a>
+      </div>
+      <div class="col image-col">
+        <div class="image-gallary">
+          <img src="img3.png" alt="">
+          <img src="img4.png" alt="">
+          <img src="img5.png" alt="">
+          <img src="img6.png" alt="">
+        </div>
+      </div>
+    </div>
+
+   </section>
+   <section class="footer" id="con">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, cupiditate consequatur laboriosam dicta repudiandae blanditiis labore aliquam, optio minus doloribus voluptatibus libero sed, debitis iure perspiciatis laudantium sapiente reiciendis commodi?</p>
+    <p>copy rigth @ 2020 outdoor advanture</p>
+   </section>
+   <script>
+    const menubtn=document.querySelector('.menu-btn')
+    const navlinks=document.querySelector('.nav-links')
+    menubtn=addEventListener('click',()=>{
+        navlinks.classList.toggle('mobile-menu')
+
+
+    })
+   </script>
+  </body>
+</html>
